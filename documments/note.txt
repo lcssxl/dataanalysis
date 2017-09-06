@@ -1,0 +1,70 @@
+
+https://contest.securities.eastmoney.com/smpop/dapp/html/newPreIndexShare.html?userid=175b58355abc35b1e0e576e5b58eb8b2,1214035000439170&from=singlemessage&isappinstalled=1
+
+今日热门卖出股排行榜
+Request URL:https://contest.securities.eastmoney.com/dsapi/Nuggets/HotRank_136_1_1_10000.html?jsonprnd=10000&_=1504710934571&cb=jsonp10000
+Request Method:GET
+Remote Address:14.215.228.48:443
+jsonp10000({"result":0,"message":"ok","isList":1,"listSize":10,"IsStatic":1,"totalCnt":2751,"rankid":0,"data":[{"ranking":1,"fullcode":402916417,"stkName":"**隆","stkMktCode":"SH601011","price":12.820,"prcPcnt":9.95,"zhCnt":284},{"ranking":2,"fullcode":595392,"stkName":"**管业","stkMktCode":"SZ002457","price":17.280,"prcPcnt":-3.46,"zhCnt":281},{"ranking":3,"fullcode":402736513,"stkName":"**炭素","stkMktCode":"SH600516","price":32.430,"prcPcnt":0.28,"zhCnt":276},{"ranking":4,"fullcode":622592,"stkName":"**磁材","stkMktCode":"SZ002600","price":9.360,"prcPcnt":0.43,"zhCnt":234},{"ranking":5,"fullcode":403596481,"stkName":"**钼业","stkMktCode":"SH603993","price":7.760,"prcPcnt":6.01,"zhCnt":231},{"ranking":6,"fullcode":579712,"stkName":"汉王科技","stkMktCode":"SZ002362","price":36.490,"prcPcnt":0.94,"zhCnt":220},{"ranking":7,"fullcode":402658305,"stkName":"中国联通","stkMktCode":"SH600050","price":7.880,"prcPcnt":-0.13,"zhCnt":217},{"ranking":8,"fullcode":201331904,"stkName":"欧比特","stkMktCode":"SZ300053","price":17.830,"prcPcnt":9.99,"zhCnt":201},{"ranking":9,"fullcode":150720,"stkName":"神火股份","stkMktCode":"SZ000933","price":13.640,"prcPcnt":-1.73,"zhCnt":196},{"ranking":10,"fullcode":560128,"stkName":"科大讯飞","stkMktCode":"SZ002230","price":58.280,"prcPcnt":-1.54,"zhCnt":194}]})
+
+今日热门买入股排行榜
+Request URL:https://contest.securities.eastmoney.com/dsapi/Nuggets/HotRank_136_0_1_10001.html?jsonprnd=10001&_=1504710934623&cb=jsonp10001
+Request Method:GET
+jsonp10001({"result":0,"message":"ok","isList":1,"listSize":10,"IsStatic":1,"totalCnt":2754,"rankid":0,"data":[{"ranking":1,"fullcode":402777537,"stkName":"**网新","stkMktCode":"SH600797","price":16.870,"prcPcnt":3.05,"zhCnt":332},{"ranking":2,"fullcode":402916417,"stkName":"**隆","stkMktCode":"SH601011","price":12.820,"prcPcnt":9.95,"zhCnt":307},{"ranking":3,"fullcode":134720,"stkName":"**国安","stkMktCode":"SZ000839","price":11.280,"prcPcnt":1.26,"zhCnt":300},{"ranking":4,"fullcode":402728321,"stkName":"**钢构","stkMktCode":"SH600496","price":5.680,"prcPcnt":4.60,"zhCnt":245},{"ranking":5,"fullcode":622592,"stkName":"**磁材","stkMktCode":"SZ002600","price":9.360,"prcPcnt":0.43,"zhCnt":242},{"ranking":6,"fullcode":201331904,"stkName":"欧比特","stkMktCode":"SZ300053","price":17.830,"prcPcnt":9.99,"zhCnt":240},{"ranking":7,"fullcode":402711681,"stkName":"盛和资源","stkMktCode":"SH600392","price":25.770,"prcPcnt":-1.53,"zhCnt":234},{"ranking":8,"fullcode":105472,"stkName":"盈方微","stkMktCode":"SZ000670","price":6.940,"prcPcnt":9.98,"zhCnt":227},{"ranking":9,"fullcode":403596481,"stkName":"洛阳钼业","stkMktCode":"SH603993","price":7.760,"prcPcnt":6.01,"zhCnt":223},{"ranking":10,"fullcode":402658305,"stkName":"中国联通","stkMktCode":"SH600050","price":7.880,"prcPcnt":-0.13,"zhCnt":220}]})
+
+预赛收益率前500高手最近成交
+Request URL:https://contest.securities.eastmoney.com/dsapi/Nuggets/GetIncomeRank_135_1_10002.html?jsonprnd=10002&_=1504710934873&cb=jsonp10002
+Request Method:GET
+
+jsonp10002({"result":0,"message":"ok","isList":1,"listSize":10,"IsStatic":1,"totalCnt":2621,"rankid":0,"data":[{"zjzh":200455755,"userid":1039065005284964,"uidnick":"周强者恒强","ranking":105,"fullcode":201367872,"stkName":"**材料","stkMktCode":"SZ300285","mmbz":"卖出","cjjg":23.800,"tzrq":20170906,"tzsj":15000000},{"zjzh":200455801,"userid":7331104762406852,"uidnick":"傅朱嘉","ranking":45,"fullcode":661568,"stkName":"**通讯","stkMktCode":"SZ002861","mmbz":"卖出","cjjg":36.500,"tzrq":20170906,"tzsj":15000000},{"zjzh":100149868,"userid":2818094333833276,"uidnick":"芳福","ranking":294,"fullcode":402768961,"stkName":"**矿业","stkMktCode":"SH600711","mmbz":"买入","cjjg":9.860,"tzrq":20170906,"tzsj":14595200},{"zjzh":200455885,"userid":8640075014855702,"uidnick":"石榴树1126","ranking":58,"fullcode":402916417,"stkName":"**隆","stkMktCode":"SH601011","mmbz":"卖出","cjjg":12.830,"tzrq":20170906,"tzsj":14594400},{"zjzh":300179042,"userid":6579094431107098,"uidnick":"夏金汐","ranking":88,"fullcode":402792705,"stkName":"**股份","stkMktCode":"SH600884","mmbz":"买入","cjjg":23.940,"tzrq":20170906,"tzsj":14592400},{"zjzh":100149866,"userid":5006094296882640,"uidnick":"亦鹏","ranking":33,"fullcode":403524097,"stkName":"**科技","stkMktCode":"SH603528","mmbz":"买入","cjjg":12.790,"tzrq":20170906,"tzsj":14591300},{"zjzh":400489073,"userid":8996134798647258,"uidnick":"Lhp678","ranking":223,"fullcode":402774337,"stkName":"**重机","stkMktCode":"SH600765","mmbz":"卖出","cjjg":14.950,"tzrq":20170906,"tzsj":14585000},{"zjzh":400489047,"userid":5810013406959922,"uidnick":"东药巫师","ranking":43,"fullcode":403564097,"stkName":"**钴业","stkMktCode":"SH603799","mmbz":"卖出","cjjg":91.190,"tzrq":20170906,"tzsj":14583000},{"zjzh":100149847,"userid":7113212612594540,"uidnick":"al7113212612594540","ranking":6,"fullcode":402916417,"stkName":"**隆","stkMktCode":"SH601011","mmbz":"卖出","cjjg":12.690,"tzrq":20170906,"tzsj":14575300},{"zjzh":400489056,"userid":4424094486203970,"uidnick":"先德后财","ranking":331,"fullcode":402654785,"stkName":"**股份","stkMktCode":"SH600019","mmbz":"卖出","cjjg":8.390,"tzrq":20170906,"tzsj":14575000}]})
+
+
+决赛收益率前500高手最近成交
+Request URL:https://contest.securities.eastmoney.com/dsapi/Nuggets/GetIncomeRank_136_1_10003.html?jsonprnd=10003&_=1504710935073&cb=jsonp10003
+Request Method:GET
+
+Request Headers:
+Cookie:qgqp_b_id=27513285282243620736; st_pvi=54713288099797
+Host:contest.securities.eastmoney.com
+Referer:https://contest.securities.eastmoney.com/smpop/dapp/html/newPreIndexShare.html?userid=175b58355abc35b1e0e576e5b58eb8b2,1214035000439170&from=singlemessage&isappinstalled=1
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+
+Response: jsonp10003({"result":0,"message":"ok","isList":1,"listSize":10,"IsStatic":1,"totalCnt":2283,"rankid":0,"data":[{"zjzh":200460652,"userid":4187094268110812,"uidnick":"lg1423","ranking":60,"fullcode":659776,"stkName":"**达","stkMktCode":"SZ002845","mmbz":"卖出","cjjg":81.550,"tzrq":20170906,"tzsj":15000000},{"zjzh":300179468,"userid":7329094466893352,"uidnick":"Jingjinjishi","ranking":101,"fullcode":201348544,"stkName":"**艾普","stkMktCode":"SZ300157","mmbz":"卖出","cjjg":11.480,"tzrq":20170906,"tzsj":15000000},{"zjzh":400495328,"userid":4640094266612556,"uidnick":"张布衣","ranking":470,"fullcode":549056,"stkName":"**亚 通","stkMktCode":"SZ002183","mmbz":"卖出","cjjg":9.270,"tzrq":20170906,"tzsj":15000000},{"zjzh":400505446,"userid":8700134810866506,"uidnick":"秋色宜人234","ranking":257,"fullcode":658432,"stkName":"**股份","stkMktCode":"SZ002830","mmbz":"卖出","cjjg":26.910,"tzrq":20170906,"tzsj":15000000},{"zjzh":100150374,"userid":5775094760616540,"uidnick":"咸魚翻身","ranking":455,"fullcode":402728321,"stkName":"**钢构","stkMktCode":"SH600496","mmbz":"卖出","cjjg":5.690,"tzrq":20170906,"tzsj":14594900},{"zjzh":200463110,"userid":7374013521809196,"uidnick":"n737413521809196","ranking":27,"fullcode":402916417,"stkName":"**隆","stkMktCode":"SH601011","mmbz":"卖出","cjjg":12.830,"tzrq":20170906,"tzsj":14593300},{"zjzh":400498113,"userid":4588074560544612,"uidnick":"山清水秀YBF","ranking":166,"fullcode":402916417,"stkName":"**隆","stkMktCode":"SH601011","mmbz":"卖出","cjjg":12.830,"tzrq":20170906,"tzsj":14593200},{"zjzh":100150442,"userid":2648094195641644,"uidnick":"江枫飘叶","ranking":209,"fullcode":402916417,"stkName":"**隆","stkMktCode":"SH601011","mmbz":"卖出","cjjg":12.830,"tzrq":20170906,"tzsj":14591600},{"zjzh":400491448,"userid":8791013848844598,"uidnick":"鹰来了","ranking":109,"fullcode":402916417,"stkName":"**隆","stkMktCode":"SH601011","mmbz":"卖出","cjjg":12.830,"tzrq":20170906,"tzsj":14591600},{"zjzh":400491169,"userid":1665094534252534,"uidnick":"柒殺","ranking":100,"fullcode":402916417,"stkName":"**隆","stkMktCode":"SH601011","mmbz":"买入","cjjg":12.800,"tzrq":20170906,"tzsj":14591500}]})
+{
+    "result": 0,
+    "message": "ok",
+    "isList": 1,
+    "listSize": 10,
+    "IsStatic": 1,
+    "totalCnt": 2283,
+    "rankid": 0,
+    "data": [
+        {
+            "zjzh": 200460652,
+            "userid": 4187094268110812,
+            "uidnick": "lg1423",
+            "ranking": 60,
+            "fullcode": 659776,
+            "stkName": "**达",
+            "stkMktCode": "SZ002845",
+            "mmbz": "卖出",
+            "cjjg": 81.55,
+            "tzrq": 20170906,
+            "tzsj": 15000000
+        },
+        {
+            "zjzh": 300179468,
+            "userid": 7329094466893352,
+            "uidnick": "Jingjinjishi",
+            "ranking": 101,
+            "fullcode": 201348544,
+            "stkName": "**艾普",
+            "stkMktCode": "SZ300157",
+            "mmbz": "卖出",
+            "cjjg": 11.48,
+            "tzrq": 20170906,
+            "tzsj": 15000000
+        }
+        ...
+    ]
+}
