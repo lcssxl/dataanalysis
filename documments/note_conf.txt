@@ -1,0 +1,13 @@
+
+
+ssh port：13922
+user/passwd：subadmin/Gsta@2706
+root passwd：gsta2706
+
+mysql:
+域名:863.cachenow.cn
+公网:121.33.232.105
+内网:172.19.110.165
+
+
+

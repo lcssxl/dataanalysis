@@ -4,6 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.5.4.RELEASE</version>
+    </parent>
+
     <groupId>com.open.free</groupId>
     <artifactId>dataanalysis</artifactId>
     <packaging>pom</packaging>
@@ -11,6 +17,82 @@
     <modules>
         <module>eastmoney</module>
     </modules>
+
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+
+        <spring-boot.version>1.5.4.RELEASE</spring-boot.version>
+        <spring-cloud-config.version>1.3.1.RELEASE</spring-cloud-config.version>
+        <mybatis-spring-boot-starter.version>1.3.0</mybatis-spring-boot-starter.version>
+        <mysql-connector-java.version>5.1.38</mysql-connector-java.version>
+        <pagehelper.version>4.1.6</pagehelper.version>
+        <druid.version>1.0.29</druid.version>
+        <mybatis-generator-core.version>1.3.5</mybatis-generator-core.version>
+        <mybatisplus-spring-boot-starter.version>1.0.4</mybatisplus-spring-boot-starter.version>
+        <mybatisplus.version>2.1.0</mybatisplus.version>
+
+        <springloaded.version>1.2.7.RELEASE</springloaded.version>
+
+        <!-- Redis -->
+        <redis.clients.version>2.9.0</redis.clients.version>
+
+        <httpclient.version>4.5.1</httpclient.version>
+        <httpcore.version>4.4.1</httpcore.version>
+        <commons-httpclient.version>3.1</commons-httpclient.version>
+
+        <!-- alibaba fastjson -->
+        <fastjson.version>1.2.8</fastjson.version>
+        <!-- dom4j -->
+        <dom4j.version>1.6.1</dom4j.version>
+
+        <junit.version>4.12</junit.version>
+    </properties>
+
+
+    <!-- spring cloud 配置 -->
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>Camden.SR6</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-config</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-eureka</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpcore</artifactId>
+            <version>${httpcore.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>${httpclient.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+        </dependency>
+    </dependencies>
 
 
 </project>
