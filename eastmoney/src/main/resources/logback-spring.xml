@@ -95,17 +95,30 @@
 
 
     <!-- 自定义日志 start  -->
-    <appender name="eastmoneyLogAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>${LOG_HOME}/eastmoney.log</file>
+    <appender name="transactionLogAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_HOME}/transaction.log</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <FileNamePattern>${LOG_HOME}/eastmoney.log.%d{yyyyMMdd}</FileNamePattern>
+            <FileNamePattern>${LOG_HOME}/transaction.log.%d{yyyyMMdd}</FileNamePattern>
         </rollingPolicy>
         <encoder>
             <pattern>[%date{ISO8601}] - %msg %n</pattern>
         </encoder>
     </appender>
-    <logger name="eastmoneyLog"  additivity="false">
-        <appender-ref ref="eastmoneyLogAppender"/>
+    <logger name="transactionLog"  additivity="false">
+        <appender-ref ref="transactionLogAppender"/>
+    </logger>
+
+    <appender name="hotStockRankLogAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_HOME}/hotStockRank.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <FileNamePattern>${LOG_HOME}/hotStockRank.log.%d{yyyyMMdd}</FileNamePattern>
+        </rollingPolicy>
+        <encoder>
+            <pattern>[%date{ISO8601}] - %msg %n</pattern>
+        </encoder>
+    </appender>
+    <logger name="hotStockRankLog"  additivity="false">
+        <appender-ref ref="hotStockRankLogAppender"/>
     </logger>
     <!-- 自定义日志 end  -->
 

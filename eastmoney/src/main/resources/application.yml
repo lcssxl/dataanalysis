@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: eastmoney
+  datasource:
+    name: dataanalysis
+    username: root
+    password: gsta0810
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    filters: stat
+    maxActive: 20
+    initialSize: 1
+    maxWait: 60000
+    minIdle: 1
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: select 'x'
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    maxOpenPreparedStatements: 20
+    eastmoneyDatabase:
+      url: jdbc:mysql://863.cachenow.cn:3306/eastmoney?characterEncoding=utf-8
+      mapperLocations: classpath:mybatis/mapper/eastmoney/*.xml
+server:
+  port: 9991
