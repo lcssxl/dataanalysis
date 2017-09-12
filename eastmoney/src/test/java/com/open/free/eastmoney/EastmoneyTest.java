@@ -19,8 +19,8 @@ public class EastmoneyTest {
     public void testAll(){
         testGetIncomeRank_135();
         testGetIncomeRank_136();
-        testHotStockRank_0();
-        testHotStockRank_1();
+        /*testHotStockRank_0();
+        testHotStockRank_1();*/
     }
 
 

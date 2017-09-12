@@ -71,6 +71,7 @@ public class EastmoneyController {
             if(dataArray==null || dataArray.isEmpty()){
                 break;
             }
+            String theLastDate = null;
             for(int i=0; i<dataArray.size(); i++){
                 JSONObject dataTmp = dataArray.getJSONObject(i);
 
@@ -92,6 +93,9 @@ public class EastmoneyController {
                 }
                 Double price = dataTmp.getDouble("cjjg");
                 String tzrq = dataTmp.getString("tzrq");
+                if(i == dataArray.size()){
+                    theLastDate = tzrq;
+                }
                 String tzsjTmp = dataTmp.getString("tzsj");
                 tzsjTmp = tzsjTmp.length()==8 ? tzsjTmp : ("0"+tzsjTmp);
                 String tzsj = tzsjTmp.substring(0,2)+":"+tzsjTmp.substring(2,4)+":"+tzsjTmp.substring(4,6)+"."+tzsjTmp.substring(6,8);
@@ -131,6 +135,11 @@ public class EastmoneyController {
                 }
                 EastmoneyConstants.TRANSACTION_LOG.info(transaction.toString());
             }
+            String twoDayAgo = DateUtil.addDay(new Date(), -2);
+            if(theLastDate!=null && theLastDate.compareTo(twoDayAgo)<=0){
+                break;
+            }
+
             Thread.sleep(1000);
         }while(true);
 
